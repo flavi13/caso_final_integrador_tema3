@@ -1,0 +1,3 @@
+/Users/flaviarivero/github/caso_final_integrador_tema3/cmake-build-debug/CMakeFiles/caso_final_integrador_tema3.dir
+/Users/flaviarivero/github/caso_final_integrador_tema3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/flaviarivero/github/caso_final_integrador_tema3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -113,3 +113,36 @@ Este código debería compilar y funcionar en CLion sin necesidad de agregar la 
 
 Por último, ten en cuenta que este código no realiza una comprobación completa de errores y no es robusto contra varios tipos de errores de entrada. Dependiendo de tu caso de uso específico, es posible que desees agregar comprobaciones de errores adicionales y manejar los fallos de manera más sofisticada.
 
+## CORECCIÓN EJERCICIO COMPAÑERO: BEATRIZ GARRIDO
+
+#### PUNTOS POSITIVOS
+- El main.cpp esta bien hecho, dejándolo vacio y solo incluyendo las llamadas de funciones
+- El archivo cargar.cpp esta bien realizado, buen uso de la validacion de entrada
+````c++
+void load_script()
+  {
+  char filename[500];
+  printf("Archivo: ");
+  scanf("%499s", filename);
+
+  // Verificar si la entrada está vacía antes de continuar
+  if (filename[0] == '\0')
+  {
+  cerr << "Error: El nombre del archivo no puede estar vacío." << endl;
+  return;
+  }
+
+  load_script(filename, true);
+  }
+````
+#### PUNTOS NEGATIVOS
+- En el CMakeList (add_executable) hay archivos inecesarios que son parte del programa
+- Es recomendable utilizar unique_ptr<ConsoleBox> consoleBox = make_unique<ConsoleBox>(); en vez de ConsoleBox* consoleBox = new ConsoleBox; para evitar fugas de memoria en tu programa 
+````c++
+unique_ptr<ConsoleBox> consoleBox = make_unique<ConsoleBox>();
+void some_function() {
+    // Uso de consoleBox
+    // (quitas el delete); el `unique_ptr` se encarga de eso
+}
+````
+

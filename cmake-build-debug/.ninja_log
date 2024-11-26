@@ -1,11 +1,5 @@
 # ninja log v6
-3	61	1732445981177388674	build.ninja	72e5c965e136cc54
-0	161	1732445342004945601	CMakeFiles/caso_final_integrador_tema3.dir/main.cpp.o	cd6e926acbd41812
-2	54	1732445981177388674	build.ninja	72e5c965e136cc54
-0	136	1732445981183787740	CMakeFiles/caso_final_integrador_tema3.dir/main.cpp.o	35f768770eea9cc9
-0	507	1732445981183961322	CMakeFiles/caso_final_integrador_tema3.dir/labmain.cpp.o	25dd18e83772a1e1
-508	676	1732445981692233910	caso_final_integrador_tema3	1f07d125a98b3bf1
-7	618	1732466351725325434	CMakeFiles/caso_final_integrador_tema3.dir/labmain.cpp.o	25dd18e83772a1e1
+2	54	1732530382768392510	build.ninja	72e5c965e136cc54
 6	207	1732466498301777641	CMakeFiles/caso_final_integrador_tema3.dir/main.cpp.o	35f768770eea9cc9
 7	610	1732466498303068516	CMakeFiles/caso_final_integrador_tema3.dir/labmain.cpp.o	25dd18e83772a1e1
 610	724	1732466498906290347	caso_final_integrador_tema3	1f07d125a98b3bf1
